@@ -3,7 +3,7 @@ package com.java.business;
 import java.util.Iterator;
 import java.util.List;
 
-import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.CriteriaQuery; //To create queries
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
