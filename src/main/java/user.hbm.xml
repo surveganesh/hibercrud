@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.java.hibercrud.User" table="user_details">
+        <id name="userId" type="int">
+        			<column name="emp_id" />
+        </id>
+        <property name="userName" type="java.lang.String">
+            <column name="user_name" />
+        </property>
+        <property name="password" type="java.lang.String">
+            <column name="user_password" />
+        </property>
+    </class>
+</hibernate-mapping>
