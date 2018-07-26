@@ -1,7 +1,11 @@
 package com.java.hibercrud;
 
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import com.java.myapp.report.AppTestReportGenerationListener;
+
+@Listeners (AppTestReportGenerationListener.class)
 public class BTest {
 
 	@Test

@@ -5,6 +5,7 @@ import java.util.List;
 
 import javax.persistence.criteria.CriteriaQuery; //To create queries
 
+import org.apache.log4j.Logger;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -15,8 +16,11 @@ import com.java.util.UserUtil;
 import constants.AppLevelConstants;
 
 public class UserLogin {
+	public static Logger logger = Logger.getLogger(UserLogin.class);	
 
 	public String authenticateUser(String uname, String pwd){
+		logger.debug("This is a debug message");
+		logger.info("This is info message");
 		String msg=null;
 		if("NA".equals(uname))
 			return AppLevelConstants.USERNAME_EMPTY;

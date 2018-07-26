@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.java.hibercrud.PerformLoginTest">
+      <class name="com.java.hibercrud.Dtest">
         <methods>
-          <include name="performLogin" invocation-numbers="6"/>
+          <include name="d3test"/>
+          <include name="d1test"/>
         </methods>
-      </class> <!-- com.java.hibercrud.PerformLoginTest -->
+      </class> <!-- com.java.hibercrud.Dtest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

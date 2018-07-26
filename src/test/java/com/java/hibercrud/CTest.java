@@ -1,7 +1,11 @@
 package com.java.hibercrud;
 
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import com.java.myapp.report.AppTestReportGenerationListener;
+
+@Listeners (AppTestReportGenerationListener.class)
 public class CTest {
 
 	@Test
@@ -27,6 +31,8 @@ public class CTest {
 	@Test
 	public void c5test(){
 		System.out.println("in c5test");
+		String a=null;
+		a.charAt(1);
 	}
 
 }

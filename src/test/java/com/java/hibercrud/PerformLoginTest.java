@@ -9,7 +9,7 @@ import com.java.util.ReadfromExcelUtil;
 
 public class PerformLoginTest {
 
-	@DataProvider //(name = "getTestData")
+	/*@DataProvider //(name = "getTestData")
 	public Object[][] performLoginTest(){
 		return ReadfromExcelUtil.getTestData();
 	}
@@ -20,5 +20,5 @@ public class PerformLoginTest {
 		String actualMessage = u.authenticateUser(uname, pwd);
 		Assert.assertEquals(actualMessage, emsg);
 	}
-	
+	*/
 }
